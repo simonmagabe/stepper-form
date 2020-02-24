@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>Stepper Form</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h2 id="title"></h2>
+
+    <div class="stepper">
+      <div class="step email">
+        <span class="step1 active">1</span>
+        <div>Email</div>
+      </div>
+
+      <div class="step password">
+        <span class="step2">2</span>
+        <div>Password</div>
+      </div>
+
+      <div class="step validate">
+        <span class="step3">3</span>
+        <div>Validate</div>
+      </div>
+    </div>
+
+    <form action="" class="form-email">
+      <label for="email">Email Address</label>
+      <input name="email" placeholder="Enter email" required >
+      <div id="btn" class="email-next-btn" type="submit">
+        Next
+      </div>
+    </form>
+
+
+    <form action="" class="form-password">
+      <label for="password">Password</label>
+      <input name="password" placeholder="Enter password" required >
+      <div class="btns">
+        <div id="btn" class="previous">
+        Previous
+        </div>
+        <div id="btn" class="password-next">
+        Next
+        </div>
+      </div>
+    </form>
+
+    <div class="submission">
+        <div class="btns">
+            <div id="btn" class="previous">
+            Previous
+            </div>
+            <div id="btn" class="submit">
+            Submit
+            </div>
+          </div>
+    </div>
+
+    <div class="validation">
+        <h3></h3>
+    </div>
+
+  </div>
+
+  <script src="assets/scripts/script.js"></script>
+</body>
+</html>
+
